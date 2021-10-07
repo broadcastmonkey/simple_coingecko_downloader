@@ -6,3 +6,4 @@ COINS=bitcoin,ethereum,golem
 AMOUNT=100,100,100
 
 
+
