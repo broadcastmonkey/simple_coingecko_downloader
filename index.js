@@ -19,7 +19,8 @@ async function retrieveData(coinsArr) {
 const coins = process.env.COINS.split(",");
 const amounts = process.env.AMOUNT.split(",");
 let arr = [];
-if (coins.length === amounts.length)
+if (coins.length === amounts.length) {
   for (var i = 0; i < coins.length; i++)
     arr.push({ coin: coins[i], amount: amounts[i] });
-retrieveData(arr);
+  retrieveData(arr);
+}
